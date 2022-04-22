@@ -9,12 +9,15 @@ import BookList from "./Components/BookList";
 import FilterBookList from "./Components/FilterBookList";
 import fanatasyBooksArray from "./Data/fantasy.json";
 import CommentArea from "./Components/CommentArea";
+import AddComments from "./Components/AddComment";
+import AddComment from "./Components/AddComment";
 
 function App() {
   return (
     <div>
       <div className="App">
         <Row>
+          <AddComment />
           <CommentArea></CommentArea>
           <FilterBookList />
         </Row>
