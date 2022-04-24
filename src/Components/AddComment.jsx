@@ -69,9 +69,7 @@ class AddComment extends Component {
                             type="text"
                             placeholder="Insert your comment"
                             value={this.state.comment1.comment}
-                            onChange={(e) =>
-                               this.handleChange('comment', e.target.value)
-                              }
+                            
                             required
                             />
                             </Form.Group>
